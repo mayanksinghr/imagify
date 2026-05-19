@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
-import SummaryApi, { baseURL } from "../common/SummaryApi";
+import SummaryApi, { baseURL } from "../common/summaryApi";
 
 const ChatPage = () => {
   const [messages, setMessages] = useState([
