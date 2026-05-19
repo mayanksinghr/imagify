@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 4000
 const app = express()
 
 app.use(cors({
-    origin:  ["http://localhost:5173", "http://localhost:5174"],
+    origin:  "https://imagify-client-8c6z.onrender.com",
   credentials: true
 }))
 
