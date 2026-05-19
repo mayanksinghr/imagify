@@ -4,8 +4,8 @@ import Home from "../pages/Home";
 import BuyCredit from "../pages/BuyCredit";
 import Result from "../pages/Result";
 import ChatPage from "../pages/chatpage";
-import ResumeAnalyser from "../pages/Resumepage";
-import BlogGenerator from "../pages/Blogpage";
+import ResumeAnalyser from "../pages/ResumePage";
+import BlogGenerator from "../pages/BlogPage";
 
 const router = createBrowserRouter([
     {
